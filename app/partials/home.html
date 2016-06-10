@@ -19,7 +19,7 @@
                                          maxlength="50"
                                          pause="100"
                                          selected-object="query"
-                                         local-data="countries"
+                                         local-data="data"
                                          search-fields="name"
                                          title-field="name"
                                          minlength="1"
@@ -27,7 +27,7 @@
                                          match-class="highlight">
                                     </div>
                                     <span class="input-group-btn">
-                                        <a href="#/search/{{ query }}" class="btn btn-default" type="button">Go!</a>
+                                        <a href="#/search/{{ query.originalObject.id }}" class="btn btn-default" type="button">Go!</a>
                                       </span>
                                 </div>
 
